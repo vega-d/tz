@@ -1,0 +1,54 @@
+.main_button{
+    color: black;
+    border-radius: 15px;
+    border: 0px;
+    padding: 5px 25px;
+    margin: 20px 50px;
+    font-size: 150%;
+    cursor: pointer;
+
+}
+
+.main_button:hover {
+    background-color: rgba(100, 100, 100, .8);
+    transition: .3s ease-in-out;
+}
+.main_button:active {
+    background-color: rgba(100, 100, 100, 1);
+    transition: .3s ease-in-out;
+}
+
+
+.yellow_button{
+    background: #ffcb05;
+}
+
+.white_button{
+    background: #ffffff;
+}
+
+
+.navigation__link{
+    color: black;
+    margin: auto 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.navigation__link:hover {
+    font-weight: bolder;
+    letter-spacing: initial;
+    transition: .2s ease-in;
+}
+
+.centered_button {
+    display: flex;
+    justify-content: center;
+}
+
+.upload_button {
+    font-size: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}

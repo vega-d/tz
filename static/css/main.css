@@ -1,0 +1,77 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main-inner{
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    margin-top: 30%;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 80%;
+}
+
+.registration-form__line {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-w-description {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    width: 33%;
+    font-size: 80%;
+    font-weight: bold;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-input {
+
+    border-radius: 5px;
+    border: 0px;
+    padding: 3px 3px;
+    margin: 3px 3px;
+    height: 25px;
+}
+
+.input-fields-box {
+    background: #f8f4f1;
+
+}
+
+.file-icon-small {
+width: 30px;
+padding: 3px;
+}
+
+.grid{
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.shadow {
+    box-shadow: 1px 1px 3px;
+}

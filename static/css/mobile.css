@@ -1,0 +1,21 @@
+@media screen and (max-width: 920px){
+    .main-info__title{
+        text-transform: capitalize;
+        font-size: 200%;
+        margin: 10px;
+        font-weight: bolder;
+    }
+    .lang-selector-parent {
+        display: none;
+    }
+    .main_button{
+        margin: 10px 5px;
+    }
+    .header-inner{
+        justify-content: normal;
+        margin: 10px;
+    }
+    .h1 {
+    display: none;
+    }
+}
